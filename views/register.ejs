@@ -1,0 +1,80 @@
+<%- include ("./partials/header") ; %>
+
+<!-- Registration Form -->
+<section class="relative">
+  <div class="background"></div>
+  <div class="register text-center p-4 sm:my-4">
+
+    <h1 class="m-4 text-xl sm:text-4xl">Registration For Recruitment</h1>
+
+    <form class="" action="/register" method="post">
+      <div class=" d-flex justify-content-center m-3">
+        <input class="p-3 entry" type="text" name="name" value="" placeholder="Fullname" required autocomplete="off">
+        <input class="p-3 entry" type="text" name="email" value="" placeholder="Email" required autocomplete="off">
+      </div>
+
+      <div class="d-flex justify-content-center m-3">
+        <input class="p-3 entry" type="text" minlength="10" maxlength="10" name="mobileNo" value="" placeholder="Mobile No." required autocomplete="off">
+        <input class="p-3 entry" type="text" name="scholarNo" value="" placeholder="Scholar No." required autocomplete="off">
+      </div>
+
+      <div class="d-flex justify-content-center m-3">
+        <select class="p-2" name="branch" required>
+          <option value="">Your Branch</option>
+          <option value="Cse">Cse</option>
+          <option value="ECE">ECE</option>
+          <option value="EEE">EEE</option>
+          <option value="Mech">Mech</option>
+          <option value="Civil">Civil</option>
+          <option value="Chemical">Chemical</option>
+          <option value="Msme">Msme</option>
+        </select>
+      </div>
+
+      <div class="d-flex justify-content-start mx-5">
+        <div class="Post">
+          <div id="Post">
+            <label for="Post">Apply for Post:</label>
+
+            <div class="d-flex mx-3 my-1">
+              <input type="checkbox" name="Post" value="core-team">
+              <label class="" for="">Core Team</label>
+            </div>
+
+            <div class="d-flex mx-3 my-1">
+              <input id="Smm" type="checkbox" name="Post" value="smm">
+              <label class="m-1" for="Smm">Social Media Manager</label>
+            </div>
+
+            <div class="d-flex mx-3 my-1">
+              <input id="video-graphers" type="checkbox" name="Post" value="video-grapher">
+              <label class="m-1" for="video-graphers">Video Graphers</label>
+            </div>
+
+            <div class="d-flex mx-3 my-1">
+              <input id="web-developers" type="checkbox" name="Post" value="web-developer">
+              <label class="m-1" for="web-developer">Web Developers</label>
+            </div>
+
+            <div class="d-flex mx-3 my-1">
+              <input id="" type="checkbox" name="Post" value="designer">
+              <label class="" for="designer">Designers</label>
+            </div>
+
+            <div class="d-flex mx-3 my-1">
+              <input id="photographer" type="checkbox" name="Post" value="photographer">
+              <label class="m-1" for="photographer">Photographer</label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button type="Submit" class="Submit-btn neum_button m-2" name="button">Submit</button>
+    </form>
+
+  </div>
+</section>
+
+
+
+<%- include ("./partials/footer") ; %>

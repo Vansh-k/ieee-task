@@ -1,0 +1,40 @@
+<%- include ("./partials/header") ; %>
+
+<div class="p-5">
+
+<div class="headings">
+  <h2>Admin Panel</h2>
+  <h4>Registered Student Data</h4>
+</div>
+
+<div class="table-responsive">
+  <table class="table table-striped table-dark">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Name</th>
+        <th scope="col">Scholar no</th>
+        <th scope="col">Branch</th>
+        <th scope="col">Post applied</th>
+        <th scope="col">Mobile no</th>
+        <th scope="col">Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <%  for(i=0; i < data.length; i++){  %>
+      <tr>
+        <th scope="row"><%- (i+1) %></th>
+        <td><%- data[i].name %></td>
+        <td><%- data[i].scholarNo %></td>
+        <td><%- data[i].branch %></td>
+        <td><%- data[i].post %></td>
+        <td><%- data[i].MobNo %></td>
+        <td><%- data[i].email %></td>
+      </tr>
+      <% } %>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<%- include ("./partials/footer") ; %>

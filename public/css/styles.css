@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("./responsive.css");
+@import url('./animation.css');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  color: #ffffff;
+}
+
+body {}
+
+/* Header Section */
+#Header-main {
+  background-color: #0a2763;
+  background-image: url('./../images/top-bg.png');
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+#Header-main h3 {
+  line-height: 1.5;
+}
+
+/* recruiting event */
+#main-event {
+  padding: 5%;
+}
+
+.recruitment-card {
+  border-radius: 50px;
+  height: 80%;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.recruitment-details {
+  background-color: #0a2763;
+  color: #ffffff;
+  height: 100%;
+}
+
+.recruitment-details button {
+  color: #ffffff;
+  padding: 5px;
+  width: 34%;
+  border-radius: 15px;
+  background: #0a2763;
+  box-shadow: 4px 4px 8px #092154,
+    -4px -4px 8px #0c2d72;
+}
+
+.recruitment-event-card {
+  display: flex;
+  margin: auto;
+}
+
+.recruitment-event {
+  background-color: #fff;
+  box-shadow: 21px 21px 51px #cfcfcf,
+    -21px -21px 51px #ffffff;
+  overflow: hidden;
+  margin: 30px;
+  width: 330px;
+  height: 380px;
+  background-color: #0a2763;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12), 0 5px 1px -5px rgba(0, 0, 0, 0.24);
+  transform: translate(0, -5px);
+  text-align: center;
+}
+
+.recruitment-event-details {
+  background-color: #F0F0F0;
+  height: 230px;
+  width: 250px;
+  border-radius: 3%;
+  padding: 5px;
+  margin: auto;
+}
+
+/* about-us */
+#about {
+  text-align: center;
+  color: #ffffff;
+}
+
+.about-box {
+  background-color: #0a2763;
+  padding: 3%
+}
+
+.aboutUs img {
+  border-radius: 5%;
+}
+
+.img-box {
+  overflow: hidden;
+  border-radius: 50px;
+  background: linear-gradient(145deg, #092359, #0b2a6a);
+  box-shadow: 42px 42px 84px #071b45,
+    -42px -42px 84px #0d3381;
+}
+
+.about_button {
+  padding: 10px;
+  margin: 3% auto;
+  height: 70px;
+  border-radius: 15px;
+  background: linear-gradient(145deg, #092359, #0b2a6a);
+  box-shadow: 9px 9px 18px #071b45,
+    -9px -9px 18px #0d3381;
+}
+
+/* Events Section */
+#our-events {
+  background-color: #f0f0f3;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.event-card {
+  display: flex;
+  margin: auto;
+}
+
+.event {
+  background-color: #fff;
+  box-shadow: 21px 21px 51px #cfcfcf,
+    -21px -21px 51px #ffffff;
+  overflow: hidden;
+  margin: 30px;
+  background-color: #0a2763;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12), 0 5px 1px -5px rgba(0, 0, 0, 0.24);
+  transform: translate(0, -5px);
+  text-align: center;
+}
+
+.event-discription {
+  background-color: #F0F0F0;
+  border-radius: 3%;
+  padding: 5px;
+  margin: auto;
+}
+
+.web-page-link {
+  z-index: 1;
+  position: absolute;
+  align-items: center;
+  display: none;
+}
+
+.event:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.30), 0 25px 5px -25px rgba(0, 0, 0, 0.22);
+  transform: translate(0, -25px);
+  transform: scale(1.2);
+}
+
+.event:hover img {
+  filter: blur(5px);
+}
+
+.event-details {
+  color: #fff;
+}
+
+.event h3 {
+  margin: 10px;
+}
+
+.event:hover .web-page-link {
+  display: block;
+}
+
+/* footer section */
+#footer {
+  background-color: #0a2763;
+  color: #ffffff;
+}
+
+.icons {
+  border-radius: 50px;
+  background: #0a2763;
+  box-shadow: 5px 5px 10px #092154, -5px -5px 10px #0c2d72;
+  width: 15px;
+  height: 15px;
+}
+
+.icons a {
+  color: #ffffff;
+}
+
+.subscribe input {
+  border-radius: 50px;
+  padding: 5px 10px;
+  height: 40px;
+  background: #0a2763;
+  box-shadow: inset 4px 4px 8px #092154,
+    inset -4px -4px 8px #0c2d72
+}
+
+.subscribe input::placeholder {
+  color: #ffffff;
+}
+
+.line {
+  height: 1px;
+  width: 60%;
+  border: solid;
+  border-color: #ffffff;
+  border-width: thin;
+}
+
+.subscribe button {
+  color: #ffffff;
+  padding: 5px;
+  width: 43%;
+  border-radius: 15px;
+  background: #0a2763;
+  box-shadow: 4px 4px 8px #092154,
+    -4px -4px 8px #0c2d72;
+}
+
+/* Registration Page */
+.background {
+  background: linear-gradient(135deg, #0a2763, #092154);
+  height: 100vh;
+  clip-path: polygon(0 0, 0% 100%, 100% 0);
+}
+
+.register {
+  position: absolute;
+  color: #ffffff;
+  background: #0a2763;
+  border-radius: 20px;
+  background: #0a2763;
+  box-shadow: 30px 30px 60px #092154, -30px -30px 60px #0c2d72;
+  ;
+  top: 50%;
+  left: 50%;
+  transform: translate(-58%, -46%);
+}
+
+.register select {
+  color: #ffffff;
+  border-radius: 7px;
+  margin: 0 3%;
+  background: #0a2763;
+  box-shadow: inset 10px 10px 20px #092154,
+    inset -10px -10px 20px #0c2d72;
+}
+
+.entry {
+  width: 40%;
+  margin: 0 3%;
+  border-radius: 7px;
+  height: 35px;
+  color: #ffffff;
+  background: #0a2763;
+  background: #0a2763;
+  box-shadow: inset 10px 10px 20px #092154,
+    inset -10px -10px 20px #0c2d72;
+}
+
+.register input::placeholder {
+  color: #ffffff;
+}
+
+.Submit-btn {
+  color: #ffffff;
+  padding: 0;
+  height: 15%;
+  width: 18%;
+  border-radius: 15px;
+  background: #0a2763;
+  box-shadow: 4px 4px 8px #092154,
+    -4px -4px 8px #0c2d72;
+}
+
+/* successfully Reg page */
+.regestered-section {
+  color: #ffffff;
+  background-color: #0a2763;
+  padding: 50px;
+  text-align: center;
+}
+
+.regestered-section button {
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 15px;
+  background: #0a2763;
+  box-shadow: 4px 4px 8px #092154,
+    -4px -4px 8px #0c2d72;
+}
+
+/* admin panel */
+.headings{
+  color: #000;
+  text-align: center;
+}
