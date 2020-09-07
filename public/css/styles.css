@@ -200,8 +200,9 @@ body {}
 
 .subscribe input {
   border-radius: 50px;
-  padding: 5px 10px;
-  height: 40px;
+  padding: 5px;
+  /* height: 40px; */
+
   background: #0a2763;
   box-shadow: inset 4px 4px 8px #092154,
     inset -4px -4px 8px #0c2d72
@@ -222,7 +223,7 @@ body {}
 .subscribe button {
   color: #ffffff;
   padding: 5px;
-  width: 43%;
+  width: 50%;
   border-radius: 15px;
   background: #0a2763;
   box-shadow: 4px 4px 8px #092154,
